@@ -4,6 +4,12 @@ My VGA CRT gaming setup for Wii, PS2, and emulators running at 240p through retr
 
 ### CRU
 
+[CRU](https://custom-resolution-utility.en.lo4d.com/windows) allows you to create custom resolutions. We'll use that to add a 1920x240 resolution.
+
+Just input these values into CRU, run restart64.exe and that's it.
+
+![cru](images/cru.jpeg)
+
 ### Retroarch config
 
 ### Dealing with handhelds
