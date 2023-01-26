@@ -42,7 +42,7 @@ Here's how I've done that, using the GBC as an example:
 1. Get the handheld's aspect ratio
     * 10:9 for the GBC
 2. Our resolution has an aspect ratio of 8:1, so multiply that by the height of the handheld's aspect ratio
-    * 9, in this example, so our new aspect ratio becomes 72:9
+    * 9 in this example, so our new aspect ratio becomes 72:9
 3. Divide our new aspect ratio's width by the aspect ration's width of the handheld.
     * 72/10 = 7.2
 4. Get that value and multiply by the handheld's horizontal resolution
