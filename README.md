@@ -12,6 +12,26 @@ Just input these values into CRU, run restart64.exe and that's it.
 
 ### Retroarch config
 
+Now we need to configure retroarch to be able to use that new resolution we've just created. You can grab the retroarch.cfg file from this repository, or edit the following fields on your own:
+
+```
+video_fullscreen = "true"
+video_windowed_fullscreen = "false"
+video_fullscreen_x = "1920"
+video_fullscreen_y = "240"
+aspect_ratio_index = "22"
+video_refresh_rate = "120.000000"
+crt_switch_resolution = "3"
+crt_switch_resolution_super = "1920"
+menu_driver = "rgui"
+```
+
+Mind you, these configurations can be used on core overrides if you want to have retroarch's main menu to run at a higher resolution.
+
+Here's my results:
+
+![consoles](images/consoles.jpg)
+
 ### Dealing with handhelds
 We've set  320x240 to our main resolution, but handhelds such as the GBC and GBA work with smaller resolutions. If you just try to run their emulators without any changes to the configuration, you'll notice that the image occupies the correct vertical space, but horizontally it stretches out to the edges of the screen.
 
