@@ -56,7 +56,9 @@ custom_viewport_height = "144"
 custom_viewport_width = "1152"
 ```
 
-The emulator's image will not fill the entire screen, so feel free to use to use some overlays. Here's my results:
+The emulator's image will not fill the entire screen, so feel free to use to use some overlays.
+
+Here's my results:
 
 ![handhelds](images/handhelds.jpg)
 
