@@ -70,6 +70,8 @@ You can find Component to VGA adapters on [Aliexpress](https://pt.aliexpress.com
 
 ![ps2wii](images/ps2wii.jpg)
 
+![ypbpr2vga](images/ypbpr2vga.jpg)
+
 # Nintendo 64
 
 I'm working on getting the Nintendo 64 connected to this setup as well (The emulators suck, so I'd rather have the original hardware if possible). I've got a composite to vga adapter and it works, but image is pretty blurry and the colors don't look very good. The N64 doesn't output component so I can't just hook it up using the same adapter I use for the Wii and PS2.
