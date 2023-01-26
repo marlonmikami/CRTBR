@@ -7,6 +7,28 @@ My VGA CRT gaming setup for Wii, PS2, and emulators running at 240p through retr
 ### Retroarch config
 
 ### Dealing with handhelds
+We've set  320x240 to our main resolution, but handhelds such as the GBC and GBA work with smaller resolutions. If you just try to run their emulators without any changes to the configuration, you'll notice that the image occupies the correct vertical space, but horizontally it stretches out to the edges of the screen.
+
+Being that we're working with super an weird 1920x240 resolution, we need to calculate the correct width so as to get the same aspect ratio as the original handheld's screen.
+
+Here's how I've done that, using the GBC as an example:
+
+1. Get the handheld's aspect ratio
+    * 10:9 for the GBC
+2. Our resolution has an aspect ratio of 8:1, so multiply that by the height of the handheld's aspect ratio
+    * 9, in this example, so our new aspect ratio becomes 72:9
+3. Divide our new aspect ratio's width by the aspect ration's width of the handheld.
+    * 72/10 = 7.2
+4. Get that value and multiply by the handheld's horizontal resolution
+    * 7.2 * 160 = 1152
+
+With this new resolution we'll add an override for the handheld's emulator core, so that this resolution only get's used with the correct emulator. Here's how that looks like:
+
+```
+aspect_ratio_index = "23"
+custom_viewport_height = "144"
+custom_viewport_width = "1152"
+```
 
 # Wii & PS2
 The Wii and PS2 can be connected to the CRT Monitor using a Component to VGA adapter. This one I've got allows you to switch between scaling resolutions (starting at 480p itself) and aspect ratios, and it also allows for picture adjustments.
