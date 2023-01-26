@@ -30,6 +30,11 @@ custom_viewport_height = "144"
 custom_viewport_width = "1152"
 ```
 
+The emulator's image will not fill the entire screen, so feel free to use to use some overlays. Here's my results:
+
+![handhelds](images/handhelds.jpg)
+
+
 # Wii & PS2
 The Wii and PS2 can be connected to the CRT Monitor using a Component to VGA adapter. This one I've got allows you to switch between scaling resolutions (starting at 480p itself) and aspect ratios, and it also allows for picture adjustments.
 
