@@ -4,7 +4,7 @@ My VGA CRT gaming setup for Wii, PS2, and emulators running at 240p through retr
 
 ### CRU
 
-[CRU](https://custom-resolution-utility.en.lo4d.com/windows) allows you to create custom resolutions. We'll use that to add a 1920x240 resolution.
+[CRU](https://custom-resolution-utility.en.lo4d.com/windows) allows you to create custom resolutions. We'll use that to add a 1920x240 resolution, with a 120Hz refresh rate.
 
 Just input these values into CRU, run restart64.exe and that's it.
 
@@ -33,7 +33,7 @@ Here's my results:
 ![consoles](images/consoles.jpg)
 
 ### Dealing with handhelds
-We've set  320x240 to our main resolution, but handhelds such as the GBC and GBA work with smaller resolutions. If you just try to run their emulators without any changes to the configuration, you'll notice that the image occupies the correct vertical space, but horizontally it stretches out to the edges of the screen.
+We've set 320x240 as our main resolution, but handhelds such as the GBC and GBA work with smaller resolutions. If you just try to run their emulators without any changes to the configuration, you'll notice that the image occupies the correct vertical space, but horizontally it stretches out to the edges of the screen.
 
 Being that we're working with super an weird 1920x240 resolution, we need to calculate the correct width so as to get the same aspect ratio as the original handheld's screen.
 
