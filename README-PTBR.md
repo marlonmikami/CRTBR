@@ -4,7 +4,7 @@ Meu setup para Wii, PS2 e jogos em 240p usando retroarch e um monitor CRT VGA.
 
 ### CRU
 
-[CRU](https://custom-resolution-utility.en.lo4d.com/windows) permite que você crie resoluções personalizadas. Usaremos essa aplicação para criar uma resolução de 1920x240.
+[CRU](https://custom-resolution-utility.en.lo4d.com/windows) permite que você crie resoluções personalizadas. Usaremos essa aplicação para criar uma resolução de 1920x240, 120Hz.
 
 Coloque os valores da imagem no CRU, rode o executável restart64.exe e pronto.
 
